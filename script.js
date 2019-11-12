@@ -13,6 +13,10 @@ if (serQual === "0") {
     alert("Please select a service rate");
     return;
 }
+if (isNaN(billAmt)) {
+    alert("Please insert a number");
+    return;
+}
 //Calculate with selected rate    
 var endtotal = ((billAmt * serQual) / pplamt)
 var endtotal = Math.round(endtotal * 100) / 100
