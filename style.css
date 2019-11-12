@@ -1,0 +1,66 @@
+body {
+    background-color: #b7d7e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calc {
+    width: 300px;
+    max-width: 80%;
+    padding: 1em;
+    background-color: #87bdd8;
+    border: solid black;
+    border-width: 2px;
+    border-radius: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+/* ------ amount ----- */
+.currencyinput {
+    border: 1px inset #ccc;
+    background: white;
+}
+.currencyinput input {
+    border: 0;
+}
+
+
+/* ------ hservice ----- */
+
+#hservice {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+/* ------ coption ----- */
+
+#coption {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* ------ ppl ----- */
+
+#ppl {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+
+/* ------ tipout ----- */
+#tipout {
+    color:black;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+/* ------ calculatedtip ----- */
+
+#calculatedtip {
+    margin-bottom: 0px;
+}
+
+
